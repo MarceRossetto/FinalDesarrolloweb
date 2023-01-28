@@ -409,7 +409,7 @@ footer {
     .services .service__container .container__manicure {
       width: 95%;
       height: auto;
-      background-color: rgba(243, 218, 216, 0.5);
+      background-color: rgba(185, 166, 164, 0.8);
       border-radius: 40px;
       padding: 30px; }
       .services .service__container .container__manicure h3 {
@@ -493,7 +493,7 @@ footer {
     margin-top: 60px;
     width: 95%;
     height: auto;
-    background-color: rgba(243, 218, 216, 0.5);
+    background-color: rgba(185, 166, 164, 0.8);
     border-radius: 40px;
     padding: 30px; }
     .services .container__facial h3 {
@@ -583,7 +583,7 @@ footer {
     margin-top: 60px;
     width: 95%;
     height: auto;
-    background-color: rgba(243, 218, 216, 0.5);
+    background-color: rgba(185, 166, 164, 0.8);
     border-radius: 40px;
     padding: 30px; }
     .services .container__massages h3 {

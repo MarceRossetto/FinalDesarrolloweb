@@ -1,0 +1,69 @@
+    .shop {
+        background-image: url(../img/fondoshop.jpg);
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover;
+        background-attachment: fixed;
+        .container {
+            .row {
+                width: 100%;
+                .card {
+                    width: 200px;
+                    height: 350px;
+                    background: linear-gradient(0deg, rgba(195,162,158,1) 29%, rgba(219,209,209,1) 100%);
+                    border-radius: 40px;
+                    margin: 30px auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    padding: 10px;
+                    color: white;
+                    box-shadow: 3px 3px 30px black;
+                    &:hover {
+                        transform: scale(1.2);
+                        transition: all 1s ease;
+                    }
+                    @include mobile {
+                        margin: 20px 80px;
+                        display: flex;
+                        flex-direction: column;
+                        &:hover {
+                            transform: none;
+                        }
+        
+                    }
+                    .button-buy {
+                        width: 70px;
+                        height: 30px;
+                        background: transparent;
+                        color: white;
+                        border-color: white;
+                        border-radius: 10px;
+                        border-style: solid;
+                        font-family: 'Judson', serif;
+                        font-size: 15px;
+                        
+                    }
+                    .card__tittle, .card__price {
+                        color: white;
+                        font-size: 16px;
+                        font-family: 'Judson', serif;
+                    }
+                }
+            }
+        }
+        .shipping {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+        
+        
+        
+
+    
+   
+

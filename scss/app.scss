@@ -1,0 +1,17 @@
+//abstracts
+@import './abstracts/media-queries.scss';
+
+//bases
+@import './base/reset.scss';
+@import './base/typography.scss';
+
+//layout
+@import './layout/footer.scss';
+@import './layout/header.scss';
+
+//views
+@import './views/contact.scss';
+@import './views/galery.scss';
+@import './views/service.scss';
+@import './views/shop.scss';
+@import './views/home.scss';

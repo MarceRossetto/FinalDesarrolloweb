@@ -1,0 +1,340 @@
+.services {
+    background-image: url(../img/fondoservicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    .service__tittle {
+        color: rgb(243, 6, 6);
+        font-family: 'Judson', serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 60px;
+        font-weight: lighter;
+        @include mobile {
+            font-size: 30px;
+            margin-top: 10px;
+        }
+    }
+    .service__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 40px;
+        
+        .container__manicure {
+            width: 95%;
+            height: auto;
+            background-color: rgba(243, 218, 216, 0.5);
+            border-radius: 40px;
+            padding: 30px;
+            h3 {
+                color: white;
+                text-align: center;
+                font-size: 25px;
+                font-weight: lighter;
+                @include mobile {
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            @include mobile {
+                width: 80%;
+                height: auto;
+                padding: 5px;
+                &:hover {
+                transform: none
+                }
+            }
+            @include tablet {
+                max-width: 750px;
+                height: auto;
+                padding: 5px;
+                &:hover {
+                transform: none
+                }
+            }
+        }
+            .manicure__service {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 80px;
+                width: 100%;
+                @include mobile {
+                    flex-direction: column;
+                    margin: 10px;
+                }
+                @include tablet {
+                    flex-direction: column;
+                    margin: 10px;
+                }
+                
+                .manicure__description {
+                    margin: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    @include mobile {
+                        margin: 30px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                   
+                    .description__listm {
+                        list-style-type: circle;
+                        width: 100%;
+                        .list__type {
+                            font-size: 23px;
+                            font-weight: lighter;
+                            color: white;
+                            text-align: start;
+                            margin-right: 80px;
+                            width: 100%;
+                            
+                            @include mobile {
+                                font-size: 18px;
+                                text-align: start;
+                                width: 100%;
+                            }
+                            @include tablet {
+                                margin-top: 10px;
+                                font-size: 20px;
+                                width: 75%;
+                            }
+                            
+                        }
+                        .info {
+                            font-size: 18px;
+                            margin: 0;
+                            color: white;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                        }
+                        .info-description {
+                            background: transparent;
+                            border: none;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .container__facial {
+            margin-top: 60px;
+            width: 95%;
+            height: auto;
+            background-color: rgba(243, 218, 216, 0.5);
+            border-radius: 40px;
+            padding: 30px;
+            h3 {
+                color: white;
+                text-align: center;
+                font-size: 25px;
+                font-weight: lighter;
+                @include mobile {
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            @include mobile {
+                width: 80%;
+                height: auto;
+                padding: 5px;
+                &:hover {
+                    transform: none;
+            }
+            @include tablet {
+                max-width: 750px;
+                height: auto;
+                padding: 5px;
+                &:hover {
+                transform: none
+            }
+            }
+
+            }
+            .facial__service {
+                display: flex;
+                flex-direction: row-reverse;
+                margin-right: 80px;
+                align-items: center;
+                margin-top: 50px;
+                width: 100%;
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px;
+                }
+                @include tablet {
+                    flex-direction: column;
+                    margin: 10px;
+                }
+                .facial__description {
+                    margin:30px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    @include mobile {
+                        margin-top: 15px;
+                        margin-right: 80px;
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+
+                    .description__listf {
+                        list-style-type: circle;
+                        width: 100%;
+                        @include mobile {
+                            margin-left: 10px;
+                        }
+                        .list__type {
+                            font-size: 23px;
+                            font-weight: lighter;
+                            color: white;
+                            text-align: start;
+                            margin-right: 80px;
+                            width: 100%;
+                            @include mobile {
+                                font-size: 18px;
+                                text-align: start;
+                                width: 100%;
+                            }
+                            @include tablet {
+                                margin-top: 10px;
+                                font-size: 20px;
+                                width: 75%;
+                            }
+                        }
+                        .info {
+                            font-size: 18px;
+                            margin: 0;
+                            color: white;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                        }
+                        .info-description {
+                            background: transparent;
+                            border: none;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .container__massages {
+            margin-top: 60px;
+            width: 95%;
+            height: auto;
+            background-color: rgba(243, 218, 216, 0.5);
+            border-radius: 40px;
+            padding: 30px;
+            h3 {
+                color: white;
+                text-align: center;
+                font-size: 25px;
+                font-weight: lighter;
+                @include mobile {
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            @include mobile {
+                width: 80%;
+                height: auto;
+                padding: 5px;
+                &:hover {
+                    transform: none;
+                }
+            }
+            @include tablet {
+                max-width: 750px;
+                height: auto;
+                padding: 5px;
+                &:hover {
+                transform: none
+                }
+            }
+            .massages__service {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 50px;
+                width: 100%;
+                
+                @include mobile {
+                    flex-direction: column;
+                    margin: 10px;
+                }
+                @include tablet {
+                    flex-direction: column;
+                    margin: 10px;
+                }
+                .massages__description {
+                    margin: 5px;
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    @include mobile {
+                        margin: 30px;
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+                    .description__listma {
+                        list-style-type: circle;
+                        width: 100%;
+                        .list__type {
+                            font-size: 23px;
+                            font-weight: lighter;
+                            color: white;
+                            text-align: start;
+                            margin-right: 80px;
+                            width: 100%;
+                            @include mobile {
+                                font-size: 18px;
+                                text-align: start;
+                                width: 100%;
+                            }
+                            @include tablet {
+                                margin-top: 10px;
+                                font-size: 20px;
+                                width: 75%;
+                            }
+                            
+                            
+                        }
+                        .info {
+                            font-size: 18px;
+                            margin: 0;
+                            color: white;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                        }
+                        .info-description {
+                            background: transparent;
+                            border: none;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .service__img {
+        min-width: 80%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 3px 3px 10px;
+        @include mobile {
+            width: 92%;
+        }
+    }
+    
+
+
+
